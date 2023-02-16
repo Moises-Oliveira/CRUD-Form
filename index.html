@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+       
+    
+        <form action="index.php" method="POST">
+            <h2>
+                Login Account
+            </h2>
+            
+            <label for="email">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+                <input type="email" name="email" id="email" placeholder=" "required>
+                
+            </label>
+           
+            
+            <label for="">
+                <i class="fa-solid fa-key key"></i>
+                <span>Password</span>
+                <input type="password" id="password" name="password"required>
+            </label>
+
+            
+            <button type="submit" class="enviar" name="açao">
+               Enviar
+            </button>
+            <!-- <input type="submit" class="enviar" > -->
+
+            <div class="alternative">
+                <div class="recuperar">
+                    <a href="recuperar.html">Esqueceu a senha?</a>
+                </div>
+                
+                <span class="ou"> OU</span>
+
+                <div>
+                    <a href="cadastro.html" class="cadastrar"> Cadastrar-se</a>
+                </div>
+            </div>
+
+            <div class="socials">
+
+        
+                <a href="https://www.google.com">
+                    <img src="assets/googleg_standard_color_128dp.png" alt="Google">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="assets/facebook-icon-abylight-studios.png" alt="Facebook">
+                </a>
+            
+            </div>
+
+            
+        </form>
+
+
+    </main>
+   
+      <script src="script.js"></script>
+</body>
+</html>
